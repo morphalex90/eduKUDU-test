@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import AuthenticatedLayout from '@/Layouts/AuthenticatedLayout.vue';
-import { Head, Link, useForm, useDebounceFn } from '@inertiajs/vue3';
+import { Head, useForm } from '@inertiajs/vue3';
 import InputLabel from '@/Components/InputLabel.vue';
 import { ref, watch, onMounted } from 'vue';
 import { debounce } from 'lodash'
